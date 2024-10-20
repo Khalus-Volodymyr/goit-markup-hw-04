@@ -45,6 +45,8 @@ img {
 .header-container {
   display: flex;
   align-items: center;
+  box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
 }
 
 .main-nav {
@@ -159,6 +161,7 @@ img {
   max-width: 1440px;
   margin: 0 auto;
   block-size: cover;
+  background-size: cover;
 }
 
 .hero-title {
@@ -464,7 +467,6 @@ img {
   align-items: left;
   justify-content: center;
   flex-direction: column;
-  margin-left: 140px;
   width: 208px;
   height: 80px;
 }
@@ -516,4 +518,9 @@ img {
 
 .social-footer {
   display: flex;
+  align-items: baseline;
+}
+
+.footer-social-logo {
+  margin-right: 120px;
 }
