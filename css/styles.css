@@ -40,6 +40,7 @@ img {
 
 .site-header {
   border-bottom: 1px solid #e7e9fc;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-container {
@@ -48,8 +49,8 @@ img {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-container:hover,
-.header-container:focus {
+.site-header:hover,
+.site-headerr:focus {
   box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
 }
@@ -335,7 +336,7 @@ img {
 .social-icons {
   display: flex;
   gap: 24px;
-  justify-content: space-between;
+  justify-content: center;
   margin: 0 16px;
   padding-top: 8px;
 }
@@ -353,7 +354,7 @@ img {
 
 .social-icon-link:hover,
 .social-icon-link:focus {
-  background-color: #31d0aa;
+  background-color: #404bbf;
 }
 
 .icon {
